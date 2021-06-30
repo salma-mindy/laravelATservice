@@ -1,0 +1,73 @@
+.category-box{
+	border-radius: 16px;
+}
+
+.category-box a{
+	text-decoration: none;
+	border-radius: 16px;
+}
+.category-box a:hover{
+	background: #019DA5;
+	/*transition: 0.4s;*/
+	/*animation: cardA 2s reverse;*/
+}
+
+@keyframes cardA {
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.category-box a span:nth-child(3){
+	font-weight: bold;
+}
+
+.category-box a span:nth-child(2){
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+.category-box a span:hover {
+	color: white;
+}
+
+/* .work-box:nth-child(3):hover */
+.card-box-profile:hover{
+	/* box-shadow: 20px; */
+	/* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.575); */
+	/* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+	/* -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+	box-shadow: -20px -13px 61px -22px rgba(0,0,0,0.83);
+	-webkit-box-shadow: -20px -13px 61px -22px rgba(0,0,0,0.83);
+	-moz-box-shadow: -20px -13px 61px -22px rgba(0,0,0,0.83);
+	cursor: pointer;
+	/* border: 1px solid teal; */
+}
+
+.collapse ul li a, .navbar-right ul li a{
+	font-weight: bold;
+	/* font-size: 5rem; */
+}
+
+.barr{
+	margin-top: -15px;
+	height: 2px;
+	width: 90%;
+	background-color: rgb(34, 9, 9);
+}
+/* .tr-category .container .section-title h1::after{
+    content: "Un texte";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(341deg);
+    color: red;
+    background: gray;
+    text-align: center;
+    width: 90px;
+    border-radius: 10px;
+    padding: 4px;
+} */
