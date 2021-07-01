@@ -2,6 +2,26 @@
 
 @section('style')
     <link type="text/css" href="{{ asset('assets/css/login.css') }}" rel="stylesheet" />
+
+    <style>
+        .btn_recruteur_prestataire{
+            height: 100px !important;
+            width: 400px !important;
+            padding: 35px;
+            background-color: #39a847;
+            margin: 77px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover{
+            color: aquamarine;
+        }
+
+    </style>
 @endsection
 
 @section('content')
@@ -20,14 +40,24 @@
     <!-- Banner Login Section =============================================== -->
 
     <section class="banner-login">
-        <div class="container" style="color: rgba(37, 36, 36, 0.644);">
-                      
-            <div class="row">
+        <div class="container">
+                      <br><br>
+            <div class="row text-center">
                 <div class="col-lg-6">
-                    fgfgdfgfdgffdff
+                    <div class="btn_recruteur_prestataire">
+                        Vous voulez recruter ?
+                        <a href="{{ route('formRecruteur') }}"> Cliquez ici
+                            <i class="icofont-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-6">
-                    gdgdfgfgfgrzere
+                    <div class="btn_recruteur_prestataire">
+                        Vous cherchez du travail ?
+                        <a href="{{ route('prestataire') }}">Cliquez ici
+                            <i class="icofont-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
             </div><!-- /.row -->
             

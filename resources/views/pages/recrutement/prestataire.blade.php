@@ -2,7 +2,8 @@
 
 @section('styles')
 	<link type="text/css" href="{{ asset('assets/css/login.css') }}" rel="stylesheet" />
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<style>
 		.label-file {
 		    cursor: pointer;
@@ -15,6 +16,21 @@
 
 		.input-file {
 		    display: none;
+		}
+
+		/* .multi_select_box{
+			width: 400px;
+			margin: 80px auto;
+		}
+
+		.multi_select_box select{
+			width: 100%;
+		}
+
+		.multi_select_box button{
+			background-color: blue !important;
+			color: #fff !important;
+			padding: 25px; */
 		}
 	</style>
 @stop
@@ -206,6 +222,16 @@
 									</div>
 								</div>
 							</div>
+							<!-- <div class="multi_select_box w-100">
+								<select class="multi_select" multiple data-selected-text-format="count > 4">
+									<option>11111111111</option>
+									<option>22222222222</option>
+									<option>33333333333</option>
+									<option>44444444444</option>
+									<option>55555555555</option>
+									<option>66666666666</option>
+								</select>
+							</div> -->
 						</div>
 
 					</div>
@@ -251,4 +277,6 @@
 	<script src="{{ asset('assets/js/jquery.appear.min.js') }}"></script>
 
 	<script src="{{ asset('assets/js/custom.js') }}"></script>--}}
+
+
 @stop
