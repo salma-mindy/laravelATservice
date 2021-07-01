@@ -1,9 +1,11 @@
 @extends('bases.master')
 
 @section('styles')
-	<link type="text/css" href="{{ asset('assets/css/login.css') }}" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">	
+<link type="text/css" href="{{ asset('assets/css/login.css') }}" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
 	<style>
 		.label-file {
 		    cursor: pointer;
@@ -222,16 +224,18 @@
 									</div>
 								</div>
 							</div>
-							<!-- <div class="multi_select_box w-100">
-								<select class="multi_select" multiple data-selected-text-format="count > 4">
-									<option>11111111111</option>
-									<option>22222222222</option>
-									<option>33333333333</option>
-									<option>44444444444</option>
-									<option>55555555555</option>
-									<option>66666666666</option>
+							<!-- <div class="">
+								<strong>Select Language:</strong>
+								<select id="multiple-checkboxes" multiple="multiple">
+									<option value="php">PHP</option>
+									<option value="javascript">JavaScript</option>
+									<option value="java">Java</option>
+									<option value="sql">SQL</option>
+									<option value="jquery">Jquery</option>
+									<option value=".net">.Net</option>
 								</select>
 							</div> -->
+  
 						</div>
 
 					</div>
@@ -277,6 +281,16 @@
 	<script src="{{ asset('assets/js/jquery.appear.min.js') }}"></script>
 
 	<script src="{{ asset('assets/js/custom.js') }}"></script>--}}
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script> -->
 
 
+	<!-- <script>
+		    $(document).ready(function() {
+        $('#multiple-checkboxes').multiselect({
+          includeSelectAllOption: true,
+        });
+    });
+	</script> -->
 @stop

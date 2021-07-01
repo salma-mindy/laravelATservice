@@ -19,7 +19,7 @@
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row">
                     <div class="col-md-5">
-                        <center> <img src="{{ asset('bienv.png') }}" class="img_box_left"></center>
+                        <center> <img src="{{ asset('menage55.png') }}" class="img_box_left"></center>
                     </div>
                     <div class="col-md-2">
                         <center>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-5">
                         <center>
-                            <img src="{{ asset('bienv.png') }}" class="img_box_right">
+                            <img src="{{ asset('image6.png') }}" class="img_box_right">
                         </center>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-md-5">
                         <center>
-                            <img src="{{ asset('bienv.png') }}" class="img_box_right">
+                            <img src="{{ asset('jeunef.png') }}" class="img_box_right">
                         </center>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <center> 
-                            <img src="{{ asset('bienv.png') }}" class="img_box_left">
+                            <img src="{{ asset('menage33.png') }}" class="img_box_left">
                         </center>
                     </div>
                     <div class="col-md-2">
@@ -75,7 +75,7 @@
                     </div>
                     <div class="col-md-5">
                         <center>
-                            <img src="{{ asset('bienv.png') }}" class="img_box_right">
+                            <img src="{{ asset('menage22.png') }}" class="img_box_right">
                         </center>
                     </div>
                 </div>

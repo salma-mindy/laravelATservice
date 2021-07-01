@@ -39,61 +39,73 @@
 		    	<div class="create-information">
 					
 					<h3 style="font-family:	'Engravers MT'; font-size: 20px;">Informations de contact</h3>
-						<!-- <div class="create-information-btn">
-							<a href="#">Upload Cover Photo</a>
-							<a href="#">Upload Your CV</a>
-						</div> -->
 					<div class="row">
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="name">NOM</label>
-								<input type="text" name="nom" id="name" class="form-control">
+					    <div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="name">NOM</label>
+										<input type="text" name="nom" id="name" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="lastname">PRENOM</label>
+										<input type="text" name="prenom" id="lastname" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="phone">NUMERO</label>
+										<input type="tel" name="phone" id="phone" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="dateN">DATE DE NAISSANCE</label>
+										<input type="date" name="date_naiss" id="dateN" class="form-control">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="pays">PAYS</label>
+										<select name="pays" id="pays" class="form-control">
+											<option value="">Sélectionnez le pays</option>
+											<option value="">Côte d'Ivoire</option>
+											<option value="">Mali</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form-group">
+										<label for="ville">VILLE</label>
+										<select name="ville" id="ville" class="form-control">
+											<option value="">Sélectionnez la ville</option>
+											<option value="">Abidjan</option>
+											<option value="">Daloa</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+
+					    <div class="col-lg-4">
+							<div class="row">
+								<div class="col-lg-10">
+									<div class="form-group">
+										<label for="file" class="label-file">PHOTO DE PROFIL</label>
+										<div class="card" style="height: 207px; width: 250px;"></div>
+									</div>
+								</div>
+								<div class="col-lg-10">
+									<div class="form-group">
+										<input type="file" class="form-control" id="customFile" />
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="lastname">PRENOM</label>
-								<input type="text" name="prenom" id="lastname" class="form-control">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="phone">NUMERO</label>
-								<input type="tel" name="phone" id="phone" class="form-control">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="dateN">DATE DE NAISSANCE</label>
-								<input type="date" name="date_naiss" id="dateN" class="form-control">
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="pays">PAYS</label>
-								<select name="pays" id="pays" class="form-control">
-									<option value="">Sélectionnez le pays</option>
-									<option value="">Côte d'Ivoire</option>
-									<option value="">Mali</option>
-								</select>
-							</div>
-						</div>
-						<!-- <div class="col-lg-4">
-							<div class="form-group">
-								<label for="ville">VILLE</label>
-								<input type="text" id="ville" class="form-control">
-							</div>
-						</div> -->
-						<div class="col-lg-4">
-							<div class="form-group">
-								<label for="ville">VILLE</label>
-								<select name="ville" id="ville" class="form-control">
-									<option value="">Sélectionnez la ville</option>
-									<option value="">Abidjan</option>
-									<option value="">Daloa</option>
-								</select>
-							</div>
-						</div>
+						
 						{{--
 						<div class="col-lg-6">
 							<div class="form-group">
