@@ -145,74 +145,74 @@
     @include('include.section-bas')
 
 <!-- section "nos partenaies" (debut)-->
-<section class="companies-area ptb-100">
-    <div class="container">
-        <div class="section-title">
-            <h2>Nos partenaires</h2>
-        </div>
+    <section class="companies-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos partenaires</h2>
+            </div>
 
-        <div class="companies-slider owl-theme owl-carousel">
-            <div class="companies-item">
-                <img src="{{ asset('orange.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Orange</a>
-                </h3>
+            <div class="companies-slider owl-theme owl-carousel">
+                <div class="companies-item">
+                    <img src="{{ asset('orange.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Orange</a>
+                    </h3>
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Vas Technologies</a>
+                    </h3>
+                    <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="company-details.html">Agiles Telecoms</a>
+                    </h3>
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('orange.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Orange</a>
+                    </h3>
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Vas Technologies</a>
+                    </h3>
+                    <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="company-details.html">Agiles Telecoms</a>
+                    </h3>
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('orange.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Orange</a>
+                    </h3>
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="#">Vas Technologies</a>
+                    </h3>
+                    <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
+                </div>
+                <div class="companies-item">
+                    <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
+                    <h3>
+                        <a href="company-details.html">Agiles Telecoms</a>
+                    </h3>
+                </div>
             </div>
-            <div class="companies-item">
-                <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Vas Technologies</a>
-                </h3>
-                <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
-                <h3>
-                    <a href="company-details.html">Agiles Telecoms</a>
-                </h3>
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('orange.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Orange</a>
-                </h3>
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Vas Technologies</a>
-                </h3>
-                <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
-                <h3>
-                    <a href="company-details.html">Agiles Telecoms</a>
-                </h3>
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('orange.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Orange</a>
-                </h3>
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('vas-technologies.png') }}" alt="partenaire">
-                <h3>
-                    <a href="#">Vas Technologies</a>
-                </h3>
-                <!-- <a class="companies-btn" href="create-account.html">Hiring</a> -->
-            </div>
-            <div class="companies-item">
-                <img src="{{ asset('agiles-telecoms.png') }}" alt="partenaire">
-                <h3>
-                    <a href="company-details.html">Agiles Telecoms</a>
-                </h3>
-            </div>
+            
         </div>
-        
-    </div>
-</section>
+    </section>
 <!-- section "nos partenaies" (fin)-->
 
 @stop
