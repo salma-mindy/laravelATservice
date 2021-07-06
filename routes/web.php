@@ -47,6 +47,8 @@ Route::get('/add-recruteur', [RecrutementController::class, 'formRecruteur'])->n
 
 
 Route::get('/nos-offres', [RecrutementController::class, 'offres'])->name('offres');
+Route::get('/details-offres', [RecrutementController::class, 'detailOffre'])->name('detailOffre');
+
 Route::get('/contact-us', [ContactController::class, 'contact'])->name('contact');
 
 // Route::get('.')

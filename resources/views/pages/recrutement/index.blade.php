@@ -64,7 +64,8 @@
                                             <a href="#">Voir <i class="icofont-plus"></i></a>
                                         </li>
                                         <li>
-                                            <span>Partiel</span>
+                                            <!-- <span>Partiel</span> -->
+                                            <span><a href="{{ route('detailOffre') }}">Details</a></span>
                                         </li>
                                     </ul>
                                 </div>

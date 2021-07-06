@@ -18,6 +18,12 @@ class RecrutementController extends Controller
     }
 
 
+    public function detailOffre()
+    {
+        return View('pages.recrutement.detail-offre');
+    }
+
+
     public function formRecruteur()
     {
     	return View('pages.recruteur.saving');
