@@ -33,7 +33,7 @@
 			background-color: blue !important;
 			color: #fff !important;
 			padding: 25px; */
-		}
+		/* } */
 	</style>
 @stop
 
