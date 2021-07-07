@@ -110,7 +110,9 @@
                         </div>
                         <!-- <form> -->
                         <div class="row">
-                            <div class="col-lg-8">
+
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-10">
                                 <div class="row">
                                     
                                     <div class="col-lg-6">
@@ -149,15 +151,13 @@
 
                                 </div>
                             </div>
-                            <div class="col-lg-4"></div>
+                            <div class="col-lg-1"></div>
 
                         </div>
                         <!-- </form> -->
-                    </div>
-
-                    <!-- <div class="create-education"> -->
+                        <!-- <div class="create-education"> -->
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 mb-2">
                                 <button type="submit" class="btn btn-primary" style="width: 100%">ENREGISTRER</button>
                             </div>
                             <div class="col-lg-6">
@@ -165,6 +165,9 @@
                             </div>
                         </div>
                     <!-- </div> -->
+                    </div>
+
+                    
                 </form>
             </div>
 	    </div>
