@@ -24,17 +24,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">SERVICE <i
-                                    class="icofont-simple-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="candidate-list.html" class="nav-link" style="font-size: 13px;">DEMANDER UN DEPANAGE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="candidate-details.html" class="nav-link" style="font-size: 13px;">DEVENIR PRESTATAIRE</a>
-                                </li>
-                               
-                            </ul>
+                            <a href="{{ route('service') }}" class="nav-link dropdown-toggle">SERVICE 
                         </li>
                         
                         <li class="nav-item">

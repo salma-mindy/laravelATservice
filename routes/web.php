@@ -10,6 +10,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Dashboard\EmployeController;
 use App\Http\Controllers\DemandeController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ServiceController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -50,5 +51,9 @@ Route::get('/nos-offres', [RecrutementController::class, 'offres'])->name('offre
 Route::get('/details-offres', [RecrutementController::class, 'detailOffre'])->name('detailOffre');
 
 Route::get('/contact-us', [ContactController::class, 'contact'])->name('contact');
+
+
+//services routes
+Route::get('/nos-service', [ServiceController::class, 'index'])->name('service');
 
 // Route::get('.')
